@@ -1,0 +1,36 @@
+{
+  "name": "microcms-entry-nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "post:all": "ts-node src/command/all.ts",
+    "post:contents": "ts-node src/command/contents.ts",
+    "post:media": "ts-node src/command/media.ts",
+    "sync:media": "ts-node src/command/sync-media.ts",
+    "eslint": "eslint src/**/*"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "engines": {
+    "node": "22.15.0",
+    "pnpm": "10.11.0",
+    "npm": "please use pnpm instead"
+  },
+  "packageManager": "pnpm@10.11.0",
+  "devDependencies": {
+    "@eslint/js": "^9.27.0",
+    "@types/node": "^22.15.19",
+    "dotenv": "^16.5.0",
+    "eslint": "^9.27.0",
+    "globals": "^16.1.0",
+    "typescript-eslint": "^8.32.1"
+  },
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^8.32.1",
+    "@typescript-eslint/parser": "^8.32.1",
+    "file-type": "^20.5.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  }
+}
